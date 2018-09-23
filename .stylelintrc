@@ -3,7 +3,7 @@
 # stylelint --help
 
 # Autofixing errors:
-#   stylelint "foo/*.css" --fix
+#   stylelint "src/**/*.css" --fix
 
 {
  "plugins": [

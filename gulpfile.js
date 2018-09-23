@@ -31,7 +31,7 @@ var gulp = require('gulp'),
         return gulp.src('./src/*.css')
             .pipe(postcss(processors))
             .pipe(nano(configNano))
-            .pipe(gulp.dest('./docs/css'))
+            .pipe(gulp.dest('./docs/'))
             .pipe(notify({ message: 'Your CSS is ready =^_^=' }));
     });
 

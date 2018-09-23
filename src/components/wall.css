@@ -1,0 +1,49 @@
+.walls {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+
+  /* display: flex;
+  flex-wrap: wrap; */
+}
+
+.wall {
+  position: relative;
+  width: 100%;
+
+  /* padding: 1em; */
+
+  img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+  }
+
+  &:hover {
+    .wall-info {
+      display: flex;
+    }
+  }
+}
+
+.wall-image {
+  overflow: hidden;
+  width: 25vw;
+  height: 25vw;
+
+}
+
+.wall-info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 25vw;
+  height: 25vw;
+
+  background: white;
+
+  /* border-radius: 500rem; */
+}

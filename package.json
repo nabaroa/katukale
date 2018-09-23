@@ -1,21 +1,21 @@
 {
-  "name": "nak-scaffolding",
+  "name": "Katukale",
   "version": "1.0.0",
-  "description": "Start a new project easily",
+  "description": "Walls I love",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nabaroa/nak-scaffolding.git"
+    "url": "git+https://github.com/nabaroa/katukale.git"
   },
   "author": "@nabaroa",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nabaroa/nak-scaffolding/issues"
+    "url": "https://github.com/nabaroa/katukale/issues"
   },
-  "homepage": "https://github.com/nabaroa/nak-scaffolding#readme",
+  "homepage": "https://github.com/nabaroa/katukale#readme",
   "devDependencies": {
     "autoprefixer": "^9.1.5",
     "browser-sync": "^2.24.7",
@@ -34,6 +34,16 @@
     "postcss-nested": "^4.1.0",
     "run-sequence": "^2.2.1",
     "stylelint": "^9.5.0",
-    "stylelint-order": "^1.0.0"
-  }
+    "stylelint-order": "^1.0.0",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.1"
+  },
+  "dependencies": {
+    "imagemin-pngquant": "^6.0.0",
+    "jpeg-exif": "^1.1.2"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "keywords": []
 }
