@@ -2,4 +2,5 @@
 
 @import "tokens/tokens.css";
 @import "base/reset.css";
+@import "components/grid.css";
 @import "components/typography.css";
