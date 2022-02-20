@@ -1,5 +1,4 @@
-# TODO list
-
+- Improve task runner configuration
 - Data for each wall. Date, image or video, map localization
 - Add layout component
 - Add London-september walls
