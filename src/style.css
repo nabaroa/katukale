@@ -1,6 +1,11 @@
 /* Created by @nabaroa 2018 */
+/* Second iteration by @nabaroa 2021 */
 
 @import "tokens/tokens.css";
 @import "base/reset.css";
 @import "components/wall.css";
 @import "components/typography.css";
+
+body {
+  font-family: var(--base-font);
+}

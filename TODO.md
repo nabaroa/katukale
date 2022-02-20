@@ -7,4 +7,6 @@
 - Add map visualization system
 - Think about the domain and buy it
 - Get automate system to get image metadata info
-- 
+- Light smooth animations
+- Slow loading from random matches
+- Mobile layout
