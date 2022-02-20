@@ -65,17 +65,17 @@
   margin-bottom: var(--x-small);
   overflow: hidden;
 
-  img {
+  & img {
     max-width: 100%;
     /* object-fit: cover; */
   }
 
   &:hover {
-    .wall-mag {
+    & .wall-mag {
       opacity: 1;
 
       &:hover {
-        + .wall-info {
+       & + .wall-info {
           opacity: 0.9;
         }
       }
@@ -127,6 +127,8 @@
   transition: 0.25s;
   width: 100%;
   height: 50%;
+  padding: var(--medium);
+  font-size: var(--font-size--small);
   background: #222;
   color: white;
 }
