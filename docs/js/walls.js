@@ -1,17 +1,17 @@
 const walls = [
   {
     poster: "assets/desktop/0001.jpg",
-    name: "Wall name",
-    description: "Some copy here",
-    map: "40.712775,-74.005973",
-    date: "2018-9-10",
+    name: "SR",
+    description: "Barcelona. Gothic quarter.",
+    // map: "40.712775,-74.005973",
+    date: "07/07/2018, 14:44:06",
   },
   {
     poster: "assets/desktop/0002.jpg",
-    name: "Wall name 2",
-    description: "Some copy here",
-    map: "40.712775,-74.005973",
-    date: "2018-9-10",
+    name: "TheAntiEvent in London",
+    description: "Sticker near the office. Shoredich",
+    map: "51.52160191395971, -0.07838570854451576",
+    date: "21/09/2018, 15:31:09",
   },
   {
     poster: "assets/desktop/0003.jpg",
@@ -1343,16 +1343,21 @@ walls.forEach((wall) => {
 
   const description = document.createElement("p");
   description.innerText = wall.description;
-
+  
   const map = document.createElement("p");
   map.innerText = wall.map;
-
+ 
   const date = document.createElement("p");
   date.innerText = wall.date;
 
+
+
   wallInfo.appendChild(name);
   wallInfo.appendChild(description);
-  wallInfo.appendChild(map);
+
+  isMapInObject = "map" in wall;
+  isMapInObject && wallInfo.appendChild(map);
+
   wallInfo.appendChild(date);
 
   item.appendChild(wallMag);
@@ -1360,3 +1365,17 @@ walls.forEach((wall) => {
 
   wallsDiv.insertBefore(item, wallsDiv.firstChild);
 });
+
+// Google maps
+
+function initMap() {
+  const wallSpot = { lat: 51.52160191395971, lng: -0.07838570854451576 };
+  const map = new google.maps.Map(document.getElementById("show-map"), {
+    zoom: 15,
+    center: wallSpot,
+  });
+  const marker = new google.maps.Marker({
+    position: wallSpot,
+    map: map,
+  });
+}

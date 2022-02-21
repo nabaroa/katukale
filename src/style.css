@@ -4,3 +4,17 @@
 
 @import "../node_modules/nakds/dist/css/nakDS.min.css";
 @import "components/wall.css";
+
+
+#show-map {
+  height: 100%;
+  width: 100%;
+}
+
+.nk-drawer {
+  /* transform: translateX(0); */
+  padding: 0;
+  width: 50vw;
+  box-shadow: -20px -20px 60px var(--color--k-3);
+  overflow: visible;
+}
