@@ -1,3 +1,4 @@
+- Add data: 1 photo/day
 - Improve task runner configuration
 - Data for each wall. Date, image or video, map localization
 - Add layout component

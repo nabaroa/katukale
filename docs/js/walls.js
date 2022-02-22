@@ -15,10 +15,10 @@ const walls = [
   },
   {
     poster: "assets/desktop/0003.jpg",
-    name: "Wall name 2",
-    description: "Some copy here",
-    map: "40.712775,-74.005973",
-    date: "2018-9-10",
+    name: "Near the office",
+    description: "Shoredich. London",
+    map: "51.52160191395971, -0.07838570854451576",
+    date: "21/09/2018, 15:30:23",
   },
   {
     poster: "assets/desktop/0004.jpg",
